@@ -1,0 +1,54 @@
+/* table.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+h1 {
+    color: #333;
+}
+
+table {
+    width: 70%; /* Adjusted width to span the entire available width */
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+td, th {
+    padding: 8px;
+    text-align: center;
+}
+
+/* Define widths for the columns */
+td:nth-child(1),
+th:nth-child(1) {
+    width: 50%; /* Adjusted width for the first column */
+}
+
+td:nth-child(2),
+th:nth-child(2) {
+    width: 50%; /* Adjusted width for the second column */
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+#judul {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#jdl {
+    font-weight: bold;
+}
+
+img {
+    height: 200px;
+    width:400px;
+}
